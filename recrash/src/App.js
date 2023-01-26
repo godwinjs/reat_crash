@@ -1,6 +1,6 @@
 import './App.css';
 import Chatnotification from './components/chatnotification'
-import Profile_card from './components/profile_card';
+import ProfileCard from './components/profile_card';
 
 function App() {
   return (<>
@@ -8,7 +8,7 @@ function App() {
       components crash
     </h1>
     <Chatnotification />
-    <Profile_card />
+    <ProfileCard />
     </>
   );
 }
