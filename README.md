@@ -1,4 +1,4 @@
 # reat_crash
 Tailwind...
 
-Tailwindcss classes rundown
+Roundown of Tailwindcss classes
