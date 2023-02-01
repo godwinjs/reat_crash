@@ -1,15 +1,19 @@
 import './App.css';
 import Chatnotification from './components/chatnotification'
-import Header from './components/header';
+import { HeaderIndigo } from './components/header';
 import ProfileCard from './components/profile_card';
+import LandingPage from './parallax';
 
 function App() {
+  {/* <HeaderIndigo headerText={'Component Rush'} />
+<Chatnotification />
+<ProfileCard /> */}
+
   return (<>
-    <Header />
-    <Chatnotification />
-    <ProfileCard />
+  <LandingPage />
     </>
   );
 }
 
 export default App;
+
