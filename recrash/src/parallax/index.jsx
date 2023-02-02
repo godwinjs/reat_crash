@@ -22,19 +22,19 @@ const LandingPage = () => {
             <div className="relative z-10">
               <div className="flex justify-between">
                 <div className="w-1/3 mr-2">
-                  <div className="p-10 bg-white shadow-md animate-pulse">
+                  <div className="p-10 bg-white shadow-md hover:animate-pulse">
                     <h2 className={`text-lg font-bold mb-4 ${isDarkMode ? 'text-white' : 'text-black'}`}>Card Title</h2>
                     <p className={`text-base ${isDarkMode ? 'text-white' : 'text-black'}`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, magna in congue feugiat, sapien urna egestas dui, eu gravida nisl magna eu tellus. Sed id metus id metus consectetur sollicitudin.</p>
                   </div>
                 </div>
                 <div className="w-1/3 mx-2">
-                  <div className="p-10 bg-white shadow-md animate-pulse">
+                  <div className="p-10 bg-white shadow-md hover:animate-pulse">
                     <h2 className={`text-lg font-bold mb-4 ${isDarkMode ? 'text-white' : 'text-black'}`}>Card Title</h2>
                     <p className={`text-base ${isDarkMode ? 'text-white' : 'text-black'}`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, magna in congue feugiat, sapien urna egestas dui, eu gravida nisl magna eu tellus. Sed id metus id metus consectetur sollicitudin.</p>
                   </div>
                 </div>
                 <div className="w-1/3 ml-2">
-                  <div className="p-10 bg-white shadow-md animate-pulse">
+                  <div className="p-10 bg-white shadow-md hover:animate-pulse">
                     <h2 className={`text-lg font-bold mb-4 ${isDarkMode ? 'text-white' : 'text-black'}`}>Card Title</h2>
                     <p className={`text-base ${isDarkMode ? 'text-white' : 'text-black'}`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, magna in congue feugiat, sapien urna egestas dui, eu gravida nisl magna eu tellus. Sed id metus id metus consectetur sollicitudin.</p>
                   </div>
@@ -45,19 +45,19 @@ const LandingPage = () => {
               </div>
               <div className="flex justify-between">
                 <div className="w-1/3 mr-2">
-                  <div className="p-10 bg-white shadow-md animate-pulse">
+                  <div className="p-10 bg-white shadow-md hover:animate-pulse">
                     <h2 className={`text-lg font-bold mb-4 ${isDarkMode ? 'text-white' : 'text-black'}`}>Card Title</h2>
                     <p className={`text-base ${isDarkMode ? 'text-white' : 'text-black'}`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, magna in congue feugiat, sapien urna egestas dui, eu gravida nisl magna eu tellus. Sed id metus id metus consectetur sollicitudin.</p>
                   </div>
                 </div>
                 <div className="w-1/3 mx-2">
-                  <div className="p-10 bg-white shadow-md animate-pulse">
+                  <div className="p-10 bg-white shadow-md hover:animate-pulse">
                     <h2 className={`text-lg font-bold mb-4 ${isDarkMode ? 'text-white' : 'text-black'}`}>Card Title</h2>
                     <p className={`text-base ${isDarkMode ? 'text-white' : 'text-black'}`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, magna in congue feugiat, sapien urna egestas dui, eu gravida nisl magna eu tellus. Sed id metus id metus consectetur sollicitudin.</p>
                   </div>
                 </div>
                 <div className="w-1/3 ml-2">
-                  <div className="p-10 bg-white shadow-md animate-pulse">
+                  <div className="p-10 bg-white shadow-md hover:animate-pulse">
                     <h2 className={`text-lg font-bold mb-4 ${isDarkMode ? 'text-white' : 'text-black'}`}>Card Title</h2>
                     <p className={`text-base ${isDarkMode ? 'text-white' : 'text-black'}`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, magna in congue feugiat, sapien urna egestas dui, eu gravida nisl magna eu tellus. Sed id metus id metus consectetur sollicitudin.</p>
                   </div>
