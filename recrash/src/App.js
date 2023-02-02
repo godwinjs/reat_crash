@@ -1,12 +1,14 @@
 import './App.css';
 import { HeaderIndigo } from './components/header';
-import LandingPage from './parallax';
+import Parallax from './components/parallax';
+import UserList from './components/userlist';
 
 function App() {
 
   return (<>
     <HeaderIndigo headerText={'Component Rush'} nav1={"Home"} nav2={"Load"} />
-    <LandingPage />
+    <Parallax />
+    <UserList />
     </>
   );
 }

@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import ChatNotification from '../components/chatnotification';
-import ProfileCard from '../components/profile_card';
+import ChatNotification from '../chatnotification';
+import ProfileCard from '../profile_card';
 
-const LandingPage = () => {
+const Parallax = () => {
   const [isDarkMode, setDarkMode] = useState(false);
 
   return (
@@ -20,7 +20,7 @@ const LandingPage = () => {
             <div className="absolute bottom-0 left-0 right-0 w-full h-64 bg-center bg-cover" style={{ backgroundImage: `url(https://images.unsplash.com/photo-1599936427850-8a716d5057dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)` }} />
             <div className="absolute top-0 left-0 right-0 w-full h-64 bg-center bg-cover" style={{ backgroundImage: `url(https://images.unsplash.com/photo-1599936427850-8a716d5057dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)` }} />
             <div className="relative z-10">
-              <div className="flex justify-between">
+              <div className="flex justify-between my-4">
                 <div className="w-1/3 mr-2">
                   <div className="p-10 bg-white shadow-md hover:animate-pulse">
                     <h2 className={`text-lg font-bold mb-4 ${isDarkMode ? 'text-white' : 'text-black'}`}>Card Title</h2>
@@ -40,10 +40,10 @@ const LandingPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex justify-between">
+              <div className="flex justify-between my-4">
                 <ChatNotification />
               </div>
-              <div className="flex justify-between">
+              <div className="flex justify-between my-4">
                 <div className="w-1/3 mr-2">
                   <div className="p-10 bg-white shadow-md hover:animate-pulse">
                     <h2 className={`text-lg font-bold mb-4 ${isDarkMode ? 'text-white' : 'text-black'}`}>Card Title</h2>
@@ -63,7 +63,7 @@ const LandingPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex justify-between">
+              <div className="flex justify-between my-4">
                 <ProfileCard />
               </div>
             </div>
@@ -74,4 +74,4 @@ const LandingPage = () => {
   )
 }
 
-export default LandingPage;
+export default Parallax;
