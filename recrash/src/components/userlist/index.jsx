@@ -27,4 +27,29 @@ const UserList = () => {
         </ul>)
 }
 
+export const UserList2 = () => {
+    const people = [
+        {name: 'stellar', email: 'stelland@example.com', title: 'lorem ipsum dolor sit amet'},
+        {name: 'John', email: 'john@example.com', title: 'lorem ipsum dolor sit amet'}, 
+        {name: 'stellar', email: 'stelland@example.com', title: 'lorem ipsum dolor sit amet'},
+        {name: 'John', email: 'john@example.com', title: 'lorem ipsum dolor sit amet'}, 
+    ];
+
+    return (
+        <table>
+            <tbody>
+                {
+                    people.map((person) => (
+                        <tr class="odd:bg-white even:bg-slate-50">
+                            <td>{person.name}</td>
+                            <td>{person.title}</td>
+                            <td>{person.email}</td>
+                        </tr>
+                    ))
+                }
+            </tbody>
+        </table>
+    )
+}
+
 export default UserList;
